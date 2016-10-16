@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
+  get 'pages/calculator'
+
   get 'pages/about'
 
   get 'pages/home'
