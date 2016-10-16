@@ -2,9 +2,9 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  get 'pages/calculator'
+  get 'calculator', to: 'pages#calculator', as: 'calculator'
 
-  get 'pages/about'
+  get 'about', to: 'pages#about', as: 'about'
 
   get 'pages/home'
 
