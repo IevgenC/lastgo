@@ -57,7 +57,7 @@
                     <li class="<%= is_active?('/') %>"> 
                         <%= link_to "Home", '/#' %>
                     </li>
-                    <li class="<%= is_active?(calculator_path) %>">
+                    <li class="<%= is_calc_active?(calculator_path, thrall_path) %>">
                         <%= link_to "Calculator", calculator_path %>
                     </li>    
                     <li class="<%= is_active?(about_path) %>">

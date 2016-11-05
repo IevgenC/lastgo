@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var data = {
+    0: "Desc 0",
+    1: "Desc 1",
+    2: "Desc 2",
+    3: "Desc 3"
+};
+
+function showDiv(data_id, desc_id) {
+    document.getElementById(desc_id).innerHTML = data[data_id];
+}

@@ -12,6 +12,10 @@ html {
 body {
   margin: 0;
 }
+div {
+    overflow: hidden;
+    white-space: nowrap;
+}
 article,
 aside,
 details,
@@ -5009,6 +5013,14 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+}
+.calculator {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: yellowgreen;
 }
 .jumbotron h1,
 .jumbotron .h1 {
