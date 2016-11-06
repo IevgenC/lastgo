@@ -9,13 +9,11 @@ h1, h2, h3, h4, h5, h6 {
 	
 form {
 	display: inline-block;
-    max-width: 100%;
-	width: 450px;
+	width: 420px;
 }
 
 label {
 	display: inline-block;
-    max-width: 100%;
 	width: 150px;
 	font-size: 32px;
 	color: black;
@@ -25,7 +23,8 @@ label {
 .talent-description {
 	display: inline-block;
 	color:black; 
-	margin-top:20px;
+	vertical-align:top;
+	margin-top: 20px;
 }
 
 .feature {
