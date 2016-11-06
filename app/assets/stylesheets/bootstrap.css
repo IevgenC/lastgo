@@ -12,10 +12,7 @@ html {
 body {
   margin: 0;
 }
-div {
-    overflow: hidden;
-    white-space: nowrap;
-}
+div,
 article,
 aside,
 details,
