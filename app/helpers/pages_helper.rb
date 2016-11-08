@@ -14,5 +14,4 @@ module PagesHelper
 		data = read_json
 		data['talents'][id]['talent_image']
 	end
-
 end

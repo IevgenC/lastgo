@@ -46,3 +46,28 @@ $('img').click(function(){
     $(this).addClass('selected');
 });
 });
+
+function jumpto(anchor){
+	var url = window.location.href
+	var anchor_lvl = anchor.split('t')[0]; 
+	var anchor_regexp = new RegExp(anchor_lvl + '...');
+	if (url.includes(anchor)) {
+
+  	} else if (url.includes(anchor_lvl)) {
+        window.location.href = url.replace(anchor_regexp, anchor);
+    } else if (url.includes('#')) {
+ 		window.location.href += anchor;
+ 	} else {
+ 		window.location.href += "#"+anchor;
+    }    
+}
+
+window.onload = function() {
+  if (window.location.href.includes('#')) {
+  	var url = window.location.href;
+  	var params = url.split('#')[1].split('+');
+  	for (let param of params) {
+   	  document.getElementById(param).className += 'selected';
+  	}
+  }
+}

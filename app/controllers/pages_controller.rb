@@ -11,7 +11,4 @@ class PagesController < ApplicationController
   def calculator
   end
 
-  def thrall
-  end
-  
 end
