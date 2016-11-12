@@ -1,5 +1,6 @@
 {
 	"hero_name": "Thrall",
+	"hero_image": "/assets/thrall/HotS_Thrall.jpg",
 	"talents": {
 		"l1t1": {
 			"talent_name": "Блок",

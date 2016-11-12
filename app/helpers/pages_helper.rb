@@ -1,13 +1,24 @@
 require 'json'
 
 module PagesHelper
+	def get_hero_name 
+		url = request.original_url
+		url.split('/').last.remove(/#.*\+*/)
+	end
+
 	def read_json
-		file = File.read('app/assets/jsons/thrall.json')
+		hero_name = get_hero_name
+		file = File.read("app/assets/jsons/#{hero_name}.json")
 		JSON.parse(file)
 	end	
 	def hero_name
 		data = read_json
 		data['hero_name']
+	end
+
+	def hero_image
+		data = read_json
+		data['hero_image']
 	end
 
 	def talent_image(id)

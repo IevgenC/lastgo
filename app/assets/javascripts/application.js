@@ -27,7 +27,15 @@
 //}
 
 var page_content;
-$.get( "/assets/thrall.json", function(data){
+var page_url = window.location.href;
+
+var json = page_url.substr(page_url.lastIndexOf('/') + 1);
+
+if (json.includes('#')) {
+  json = json.split('#')[0];
+} 
+
+$.get( "/assets/" + json + ".json", function(data){
     page_content = data;
 });
 
@@ -67,7 +75,7 @@ window.onload = function() {
   	var url = window.location.href;
   	var params = url.split('#')[1].split('+');
   	for (let param of params) {
-   	  document.getElementById(param).className += 'selected';
+   	  document.getElementById(param).className += ' ' + 'selected';
   	}
   }
 }

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get 'calculator', to: 'pages#calculator', as: 'calculator'
 
-  get 'calculator/thrall', to: 'calculator#thrall', as: 'thrall'
+  get 'calculator/:hero', to: 'calculator#hero', as: 'hero'
 
   get 'about', to: 'pages#about', as: 'about'
 

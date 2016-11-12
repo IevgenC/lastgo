@@ -1,4 +1,6 @@
 class CalculatorController < PagesController
-	def thrall
+
+	def hero
 	end
+
 end

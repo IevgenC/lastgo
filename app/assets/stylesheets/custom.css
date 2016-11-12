@@ -21,13 +21,18 @@ label {
 }
 
 img{
+    filter: grayscale(50%);
+    margin-bottom: 10px;
+}
+img[class="talent"] {
     border: 10px solid yellowgreen;
     filter: grayscale(50%);
-    margin:10px;
+    margin:10px; 
 }
 .selected{
     filter: grayscale(0%);
     border: 10px solid orange;
+    margin:10px;
 }
 
 .talent-description {
