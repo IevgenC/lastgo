@@ -22,17 +22,14 @@ label {
 img[class="hero"]{
     filter: grayscale(50%);
     margin-bottom: 10px;
-     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
-    box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
+    border-radius: 5px;
 }
 h1[class=hero]{
-    text-shadow: 3px 3px 7px rgba(0,0,0,1);
+    font-size: 40px;
 }
 img[class="talent"] {
-    box-shadow: green 0 0 40px 2px,
-                grey 0 0 24px 4px;
+    border: solid darkseagreen;
+    border-radius: 10px;
     filter: grayscale(50%);
     margin: 10px; 
 }
@@ -47,12 +44,10 @@ div[class="level"]{
     width: 1000px;
     height: 140px;
     border-style: groove;
-    border-color: yellowgreen;
+    border-color: darkseagreen;
     margin-bottom: 10px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
-    box-shadow: 0px 0px 25px 2px rgba(0,0,0,1);
+    
 }
 label[class="level"]{
     text-align: center; 
@@ -66,8 +61,8 @@ label[class="level"]{
 .selected{
     filter: grayscale(0%);
     margin: 10px;
-    box-shadow: inset red 0 0 40px 2px,
-                      orange 0 0 24px 4px;
+    border-radius: 10px;
+    border: solid orange;
 }
 
 .talent-description {
@@ -79,7 +74,7 @@ label[class="level"]{
     width: 420px;
     word-wrap: break-word;
     font-size: small;
-    background-color: yellowgreen;
+    background-color: darkseagreen;
     border-radius: 5px;
     -webkit-box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,1);
     -moz-box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,1);
