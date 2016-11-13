@@ -4,109 +4,96 @@
 	<div class="calculator">
 		<h1><%= hero_name %></h1>
 		<img src="<%= hero_image %>"/>
-		<div>
-			<label for="lvl1" style="float: left; clear: left">1</label>
-			<div id="lvl1">
-				<form action="#" method="post">
-					<img id="l1t1" class="talent" name="l1" src="<%= talent_image('l1t1') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
-					<img id="l1t2" class="talent" name="l1" src="<%= talent_image('l1t2') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
-					<img id="l1t3" class="talent" name="l1" src="<%= talent_image('l1t3') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
-					<img id="l1t4" class="talent" name="l1" src="<%= talent_image('l1t4') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l1_name" style="font-weight: bold"></div>
-					<div id="l1_description"></div>
-				</div>
+		<div id="lvl1" class="level">
+			<label for="lvl1" class="level">1</label>
+			<form action="#" method="post">
+				<img id="l1t1" class="talent" name="l1" src="<%= talent_image('l1t1') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
+				<img id="l1t2" class="talent" name="l1" src="<%= talent_image('l1t2') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
+				<img id="l1t3" class="talent" name="l1" src="<%= talent_image('l1t3') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
+				<img id="l1t4" class="talent" name="l1" src="<%= talent_image('l1t4') %>" onclick="showText('l1_name', 'l1_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l1_name" style="font-weight: bold"></span>
+				<span id="l1_description"></span>
 			</div>
 		</div>
-		<div>
-			<label for="lvl4" style="float: left; clear: left">4</label>
-			<div id="lvl4">
-				<form action="#" method="post">
-					<img id="l4t1" class="talent" name="l4" src="<%= talent_image('l4t1') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
+		<div id="lvl4" class="level">
+			<label for="lvl4" class="level">4</label>
+			<form action="#" method="post">
+				<img id="l4t1" class="talent" name="l4" src="<%= talent_image('l4t1') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
 
-					<img id="l4t2" class="talent" name="l4" src="<%= talent_image('l4t2') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
-					<img id="l4t3" class="talent" name="l4" src="<%= talent_image('l4t3') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
-					<img id="l4t4" class="talent" name="l4" src="<%= talent_image('l4t4') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l4_name" style="font-weight: bold"></div>
-					<div id="l4_description"></div>
-				</div>
+				<img id="l4t2" class="talent" name="l4" src="<%= talent_image('l4t2') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
+				<img id="l4t3" class="talent" name="l4" src="<%= talent_image('l4t3') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
+				<img id="l4t4" class="talent" name="l4" src="<%= talent_image('l4t4') %>" onclick="showText('l4_name', 'l4_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l4_name" style="font-weight: bold"></span>
+				<span id="l4_description"></span>
 			</div>
 		</div>
-		<div>
-			<label for="lvl7" style="float: left; clear: left">7</label>
-			<div id="lvl7">
-				<form action="#" method="post">
-					<img id="l7t1" class="talent" name="l7" src="<%= talent_image('l7t1') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
+		<div id="lvl7" class="level">
+			<label for="lvl7" class="level">7</label>
+			<form action="#" method="post">
+				<img id="l7t1" class="talent" name="l7" src="<%= talent_image('l7t1') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
 
-					<img id="l7t2" class="talent" name="l7" src="<%= talent_image('l7t2') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
+				<img id="l7t2" class="talent" name="l7" src="<%= talent_image('l7t2') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
 
-					<img id="l7t3" class="talent" name="l7" src="<%= talent_image('l7t3') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
-					<img id="l7t4" class="talent" name="l7" src="<%= talent_image('l7t4') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l7_name" style="font-weight: bold"></div>
-					<div id="l7_description"></div>
-				</div>
+				<img id="l7t3" class="talent" name="l7" src="<%= talent_image('l7t3') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
+				<img id="l7t4" class="talent" name="l7" src="<%= talent_image('l7t4') %>" onclick="showText('l7_name', 'l7_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l7_name" style="font-weight: bold"></span>
+				<span id="l7_description"></span>
 			</div>
 		</div>	
-		<div>
-			<label for="lvl10" style="float: left; clear: left">10</label>
-			<div id="lvl10">
-				<form action="#" method="post">
-					<img id="l10t1" class="talent" name="l10" src="<%= talent_image('l10t1') %>" onclick="showText('l10_name', 'l10_description', this.id); jumpto(this.id + '+')" />
-					<img id="l10t2" class="talent" name="l10" src="<%= talent_image('l10t2') %>" onclick="showText('l10_name', 'l10_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l10_name" style="font-weight: bold"></div>
-					<div id="l10_description"></div>
-				</div>
-		</div>
-		<div>
-			<label for="lvl13" style="float: left; clear: left">13</label>
-			<div id="lvl13">
-				<form action="#" method="post">
-					<img id="l13t1" class="talent" name="l13" src="<%= talent_image('l13t1') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
-					<img id="l13t2" class="talent" name="l13" src="<%= talent_image('l13t2') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
-					<img id="l13t3" class="talent" name="l13" src="<%= talent_image('l13t3') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
-					<img id="l13t4" class="talent" name="l13" src="<%= talent_image('l13t4') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l13_name" style="font-weight: bold"></div>
-					<div id="l13_description"></div>
-				</div>
+		<div id="lvl10" class="level">
+			<label for="lvl10" class="level">10</label>
+			<form action="#" method="post">
+				<img id="l10t1" class="talent" name="l10" src="<%= talent_image('l10t1') %>" onclick="showText('l10_name', 'l10_description', this.id); jumpto(this.id + '+')" />
+				<img id="l10t2" class="talent" name="l10" src="<%= talent_image('l10t2') %>" onclick="showText('l10_name', 'l10_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l10_name" style="font-weight: bold"></span>
+				<span id="l10_description"></span>
 			</div>
 		</div>
-		<div>
-			<label for="lvl16" style="float: left; clear: left">16</label>
-			<div id="lvl16">
-				<form action="#" method="post">
-					<img id="l16t1" class="talent" name="l16" src="<%= talent_image('l16t1') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
-					<img id="l16t2" class="talent" name="l16" src="<%= talent_image('l16t2') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
-					<img id="l16t3" class="talent" name="l16" src="<%= talent_image('l16t3') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
-					<img id="l16t4" class="talent" name="l16" src="<%= talent_image('l16t4') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
-				</form>
-				<div class="talent-description">
-					<div id="l16_name" style="font-weight: bold"></div>
-					<div id="l16_description"></div>
-				</div>
+		<div id="lvl13" class="level">
+			<label for="lvl13" class="level">13</label>
+			<form action="#" method="post">
+				<img id="l13t1" class="talent" name="l13" src="<%= talent_image('l13t1') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
+				<img id="l13t2" class="talent" name="l13" src="<%= talent_image('l13t2') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
+				<img id="l13t3" class="talent" name="l13" src="<%= talent_image('l13t3') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
+				<img id="l13t4" class="talent" name="l13" src="<%= talent_image('l13t4') %>" onclick="showText('l13_name', 'l13_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l13_name" style="font-weight: bold"></span>
+				<span id="l13_description"></span>
 			</div>
 		</div>
-		<div>
-			<label for="lvl20" style="float: left; clear: left">20</label>
-			<div id="lvl20">
-				<form action="#" method="post">
-					<img id="l20t1" class="talent" name="l20" src="<%= talent_image('l20t1') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id )" />
-					<img id="l20t2" class="talent" name="l20" src="<%= talent_image('l20t2') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
-					<img id="l20t3" class="talent" name="l20" src="<%= talent_image('l20t3') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
-					<img id="l20t4" class="talent" name="l20" src="<%= talent_image('l20t4') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
-				</form>
-				<div class="talent-description">
-					<div id="l20_name" style="font-weight: bold"></div>
-					<div id="l20_description"></div>
-				</div>
+		<div id="lvl16" class="level">
+			<label for="lvl16" class="level">16</label>
+			<form action="#" method="post">
+				<img id="l16t1" class="talent" name="l16" src="<%= talent_image('l16t1') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
+				<img id="l16t2" class="talent" name="l16" src="<%= talent_image('l16t2') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
+				<img id="l16t3" class="talent" name="l16" src="<%= talent_image('l16t3') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
+				<img id="l16t4" class="talent" name="l16" src="<%= talent_image('l16t4') %>" onclick="showText('l16_name', 'l16_description', this.id); jumpto(this.id + '+')" />
+			</form>
+			<div class="talent-description">
+				<span id="l16_name" style="font-weight: bold"></span>
+				<span id="l16_description"></span>
+			</div>
+		</div>
+		<div id="lvl20" class="level">
+			<label for="lvl20" class="level">20</label>
+			<form action="#" method="post">
+				<img id="l20t1" class="talent" name="l20" src="<%= talent_image('l20t1') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id )" />
+				<img id="l20t2" class="talent" name="l20" src="<%= talent_image('l20t2') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
+				<img id="l20t3" class="talent" name="l20" src="<%= talent_image('l20t3') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
+				<img id="l20t4" class="talent" name="l20" src="<%= talent_image('l20t4') %>" onclick="showText('l20_name', 'l20_description', this.id); jumpto(this.id)" />
+			</form>
+			<div class="talent-description">
+				<span id="l20_name" style="font-weight: bold"></span>
+				<span id="l20_description"></span>
 			</div>
 		</div>
 	</div>

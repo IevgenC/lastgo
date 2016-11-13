@@ -49,7 +49,7 @@ function showText(name_id, text_id, element_id){
 }
 
 $(document).ready(function() {
-$('img').click(function(){
+$("img[class='talent']").click(function(){
     $(this).siblings('img').removeClass('selected');
     $(this).addClass('selected');
 });
@@ -76,6 +76,10 @@ window.onload = function() {
   	var params = url.split('#')[1].split('+');
   	for (let param of params) {
    	  document.getElementById(param).className += ' ' + 'selected';
+      var level = param.split('t')[0];
+      var name = level + "_name"
+      var description = level + "_description"
+      showText(name, description, param);
   	}
   }
 }

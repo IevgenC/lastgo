@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 form {
 	display: inline-block;
-	width: 450px;
+	width: 400px;
 }
 
 label {
@@ -17,7 +17,6 @@ label {
 	width: 50px;
 	font-size: 32px;
 	color: black;
-	margin-top: 30px;
 }
 
 img{
@@ -25,24 +24,59 @@ img{
     margin-bottom: 10px;
 }
 img[class="talent"] {
-    border: 10px solid yellowgreen;
+    box-shadow: green 0 0 40px 2px,
+                grey 0 0 24px 4px;
     filter: grayscale(50%);
-    margin:10px; 
+    margin: 10px; 
+}
+span {
+    display:flex;
+    align-items: center; 
+    margin: 10px;
+}
+div[class="level"]{
+    display:flex;
+    align-items: center; 
+    width: 1000px;
+    height: 140px;
+    border-style: groove;
+    border-color: yellowgreen;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+}
+label[class="level"]{
+    text-align: center; 
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 
+        inset 0 2px 3px rgba(255,255,255,0.3), 
+        inset 0 -2px 3px rgba(0,0,0,0.3),
+        0 1px 1px rgba(255,255,255,0.9);
 }
 .selected{
     filter: grayscale(0%);
-    border: 10px solid orange;
-    margin:10px;
+    margin: 10px;
+    box-shadow: inset red 0 0 40px 2px,
+                      orange 0 0 24px 4px;
 }
 
 .talent-description {
+    margin: 10px;
+    vertical-align: middle;
     display: inline-block;
-    color:black; 
-    vertical-align:top;
-    margin-top: 5px;
-    max-width:400px;
+    color: black; 
+    height: 120px;
+    width: 420px;
     word-wrap: break-word;
     font-size: small;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 4px 4px 25px 1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 4px 4px 25px 1px rgba(0,0,0,1);
+    box-shadow: inset 4px 4px 25px 1px rgba(0,0,0,1);
+    
 }
 
 .feature {
@@ -67,179 +101,4 @@ img[class="talent"] {
 .small-print {
 	background-color: #fff;
 	padding: 30px 0;
-}
-
-.radio {
-    opacity: 0;
-    position: absolute;
-}
-.block {
-    background: url(/assets/thrall/block.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.thunder {
-    background: url(/assets/thrall/thunder.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.wolve {
-    background: url(/assets/thrall/wolve.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.marksman {
-    background: url(/assets/thrall/marksman.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.green_wolve {
-    background: url(/assets/thrall/green_wolve.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.poison {
-    background: url(/assets/thrall/poison.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.molot {
-    background: url(/assets/thrall/molot.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.green_molot {
-    background: url(/assets/thrall/green_molot.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.damage_knife {
-    background: url(/assets/thrall/damage_knife.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.sundering {
-    background: url(/assets/thrall/sundering.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.earthquake {
-    background: url(/assets/thrall/earthquake.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.spell_shield {
-    background: url(/assets/thrall/spell_shield.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.blood_for_blood {
-    background: url(/assets/thrall/blood_for_blood.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.blue_knife {
-    background: url(/assets/thrall/blue_knife.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-.blink {
-    background: url(/assets/thrall/blink.png);
-    text-indent: -999em;
-    filter: grayscale(50%);
-    border: 10px solid yellowgreen;
-    width: 84px;
-    height: 84px;
-    display: block;
-    float: left;
-    margin: 10px;
-}
-
-input[type="radio"]:checked + label {
-    border: 10px solid orange;
-    filter: grayscale(0%);
 }
