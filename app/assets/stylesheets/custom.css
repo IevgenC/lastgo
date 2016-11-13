@@ -20,7 +20,7 @@ label {
 }
 
 img[class="hero"]{
-    filter: grayscale(50%);
+    filter: grayscale(10%);
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -28,10 +28,18 @@ h1[class=hero]{
     font-size: 40px;
 }
 img[class="talent"] {
-    border: solid darkseagreen;
     border-radius: 10px;
-    filter: grayscale(50%);
+    border: solid darkseagreen;
+    filter: grayscale(80%);
     margin: 10px; 
+}
+.selected{
+    filter: grayscale(0%);
+    margin: 10px;
+    border: solid orange;
+    border-radius: 10px;
+    box-shadow: inset red 0 0 40px 2px,
+                      orange 0 0 24px 4px;
 }
 span[class="talent"]{
     display:flex;
@@ -58,13 +66,6 @@ label[class="level"]{
         inset 0 -2px 3px rgba(0,0,0,0.3),
         0 1px 1px rgba(255,255,255,0.9);
 }
-.selected{
-    filter: grayscale(0%);
-    margin: 10px;
-    border-radius: 10px;
-    border: solid orange;
-}
-
 .talent-description {
     margin: 10px;
     vertical-align: middle;
