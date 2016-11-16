@@ -25,4 +25,11 @@ module PagesHelper
 		data = read_json
 		data['talents'][id]['talent_image']
 	end
+
+	def generate_hero(name, image, link)
+		content_tag(:a, '', class: 'hero', href: link) do 
+			image_tag(image) +
+			content_tag(:span, name)
+      	end
+	end
 end
