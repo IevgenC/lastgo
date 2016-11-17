@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
     
 form {
     display: inline-block;
-    width: 550px;
+    width: 470px;
 }
 
 label {
@@ -50,7 +50,7 @@ span[class="talent"]{
 div[class="level"]{
     display:flex;
     align-items: center; 
-    width: 900px;
+    width: 970px;
     height: 140px;
     border-style: groove;
     border-color: darkseagreen;
@@ -78,7 +78,7 @@ label[class="level"]{
     
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: small;
+    font-size: 12px;
     background-color: darkseagreen;
     border-radius: 5px;
     -webkit-box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,1);
