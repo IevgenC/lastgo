@@ -22,8 +22,11 @@ module PagesHelper
 	end
 
 	def talent_image(id)
+		begin
 		data = read_json
 		data['talents'][id]['talent_image']
+		rescue NoMethodError
+		end
 	end
 
 	def generate_hero(name, image, link)
