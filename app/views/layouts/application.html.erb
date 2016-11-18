@@ -64,13 +64,13 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
                     <li class="<%= is_active?('/') %>"> 
-                        <%= link_to "Home", '/#' %>
+                        <%= link_to "Главная", '/#' %>
                     </li>
                     <li class="<%= is_calc_active?(calculator_path) %>">
-                        <%= link_to "Calculator", calculator_path %>
+                        <%= link_to "Калькулятор", calculator_path %>
                     </li>    
                     <li class="<%= is_active?(about_path) %>">
-                        <%= link_to "About", about_path %>
+                        <%= link_to "Инфо", about_path %>
                     </li>
                 </ul>
             </div>
@@ -82,4 +82,11 @@
 <%= yield %>
 
 </body>
+<footer>   
+         <div class="small-print">
+           <div class="container">
+               <p>Copyright &copy; metahots 2016 </p>
+           </div>
+         </div>
+   </footer>
 </html>

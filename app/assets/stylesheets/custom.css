@@ -18,7 +18,19 @@ label {
     font-size: 32px;
     color: black;
 }
-
+a[class="hero"]{
+    color: darkslategray;
+    text-decoration: none;
+    margin: 3px;
+}
+a[class="hero"] > img{
+    filter: grayscale(50%);
+}
+a[class="hero"]:hover > img {
+    filter: grayscale(0%);
+    box-shadow: orange 0 0 10px 1px,
+                red 0 0 6px 2px;
+}
 img[class="hero"]{
     filter: grayscale(50%);
     margin-bottom: 10px;
@@ -42,10 +54,18 @@ img[class="talent"] {
     box-shadow: inset red 0 0 40px 2px,
                       orange 0 0 24px 4px;
 }
-span[class="talent"]{
+span[class="talent-title"]{
     display:flex;
     align-items: center; 
     margin: 10px;
+    margin-bottom: 5px;
+}
+span[class="talent-desc"]{
+    display:flex;
+    align-items: center; 
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 div[class="level"]{
     display:flex;
