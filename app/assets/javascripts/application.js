@@ -61,13 +61,13 @@ function jumpto(anchor){
 	var anchor_regexp = new RegExp(anchor_lvl + '...');
 	if (url.includes(anchor)) {
 
-  	} else if (url.includes(anchor_lvl)) {
+  } else if (url.includes(anchor_lvl)) {
         window.location.href = url.replace(anchor_regexp, anchor);
-    } else if (url.includes('#')) {
+  } else if (url.includes('#')) {
  		window.location.href += anchor;
  	} else {
  		window.location.href += "#"+anchor;
-    }    
+  }    
 }
 
 window.onload = function() {
