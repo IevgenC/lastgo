@@ -48,6 +48,11 @@ function showText(name_id, text_id, element_id){
 	document.getElementById(text_id).innerHTML = page_content['talents'][element_id]['talent_desc'];
 }
 
+function showComment(title_name, desc_name, element_id){
+  document.getElementById(title_name).innerHTML = page_content['talents'][element_id]['comment_name'];
+  document.getElementById(desc_name).innerHTML = page_content['talents'][element_id]['comment_desc']; 
+}
+
 $(document).ready(function() {
 $("img[class='talent']").click(function(){
     $(this).siblings('img').removeClass('selected');
@@ -79,7 +84,10 @@ window.onload = function() {
       var level = param.split('t')[0];
       var name = level + "_name"
       var description = level + "_description"
+      var comment_name = level + "_comment_title"
+      var comment_desc = level + "_comment_desc"
       showText(name, description, param);
+      showComment(comment_name, comment_desc, param);
   	}
   }
 }
