@@ -1,6 +1,7 @@
 {
   "hero_name": "Кувалда",
   "hero_image": "/assets/hammer/hero.jpg",
+  "build" : "l1t1+l4t2+l7t1+l10t2+l13t1+l16t1+l20t4+",
   "talents": {
     "l1t1": {
       "talent_name": "Улучшенная артиллерия",

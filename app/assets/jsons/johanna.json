@@ -1,6 +1,7 @@
 {
   "hero_name": "Джоанна",
   "hero_image": "/assets/johanna/hero.jpg",
+  "build" : "l1t1+l4t4+l7t1+l10t2+l13t1+l16t4+l20t3+",
   "talents": {
     "l1t1": {
       "talent_name": "Мастер регенерации",

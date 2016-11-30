@@ -1,6 +1,7 @@
 {
   "hero_name": "Ли-Мин",
   "hero_image": "/assets/li-ming/hero.jpg",
+  "build" : "l1t3+l4t3+l7t3+l10t2+l13t2+l16t2+l20t2+",
   "talents": {
     "l1t1": {
       "talent_name": "Астральное присутствие",

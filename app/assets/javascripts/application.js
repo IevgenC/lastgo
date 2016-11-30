@@ -75,6 +75,34 @@ function jumpto(anchor){
   }    
 }
 
+
+function showBuild() {
+  var build = page_content['build']
+  var talents = build.split('+').slice(0,-1);
+  var allselected = document.getElementsByClassName("selected")
+  
+  $( "img" ).removeClass('selected');
+  
+  var url = window.location.href
+  if (url.includes('#')) {
+    anchors = window.location.href.split('#')[1]
+    window.location.href = url.replace(anchors, build)
+  } else {
+    window.location.href += "#" + build;
+  }
+  for (let talent of talents) {
+    document.getElementById(talent).className += ' ' + 'selected';
+    var level = talent.split('t')[0];
+    var name = level + "_name"
+    var description = level + "_description"
+    var comment_name = level + "_comment_title"
+    var comment_desc = level + "_comment_desc"
+    showText(name, description, talent);
+    showComment(comment_name, comment_desc, talent);
+  }
+  
+}
+
 window.onload = function() {
   if (window.location.href.includes('#')) {
   	var url = window.location.href;
@@ -91,3 +119,4 @@ window.onload = function() {
   	}
   }
 }
+

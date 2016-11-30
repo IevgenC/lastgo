@@ -1,6 +1,7 @@
 {
   "hero_name": "Дехака",
   "hero_image": "/assets/dehaka/hero.jpg",
+  "build" : "l1t2+l4t4+l7t3+l10t1+l13t2+l16t2+l20t3+",
   "talents": {
     "l1t1": {
       "talent_name": "Стойкий рой",

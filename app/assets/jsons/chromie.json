@@ -1,6 +1,7 @@
 {
   "hero_name": "Хроми",
   "hero_image": "/assets/chromie/hero.jpg",
+  "build" : "l1t2+l4t3+l7t2+l10t2+l13t2+l16t3+l20t4+",
   "talents": {
     "l1t1": {
       "talent_name": "Эфирная смесь",

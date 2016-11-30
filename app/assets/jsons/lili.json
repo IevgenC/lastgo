@@ -1,6 +1,7 @@
 {
   "hero_name": "Ли Ли",
   "hero_image": "/assets/lili/hero.jpg",
+  "build" : "l1t4+l4t3+l7t4+l10t1+l13t3+l16t1+l20t3+",
   "talents": {
     "l1t1": {
       "talent_name": "Путь чародея",

@@ -2,8 +2,11 @@
 <html>
 	<head><%= javascript_include_tag 'application' %></head>
 	<div class="calculator">
+		<div style="position:relative;">
 		<h1 class="hero"><%= hero_name %></h1>
 		<img class="hero" src="<%= hero_image %>"/>
+		<button class="btn btn-default" style="position: absolute; bottom: 0px; margin: 10px;" onclick="showBuild()">Билд by Agni.</button>
+		</div>
 		<div id="lvl1" class="level">
 			<label for="lvl1" class="level">1</label>
 			<form action="#" method="post">

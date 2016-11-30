@@ -1,6 +1,7 @@
 {
   "hero_name": "Диабло",
   "hero_image": "/assets/diablo/hero.jpg",
+  "build" : "l1t2+l4t3+l7t1+l10t2+l13t2+l16t4+l20t2+",
   "talents": {
     "l1t1": {
       "talent_name": "Блок",

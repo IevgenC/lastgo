@@ -1,6 +1,7 @@
 {
   "hero_name": "Чэнь",
   "hero_image": "/assets/chen/hero.jpg",
+  "build" : "l1t4+l4t2+l7t2+l10t2+l13t2+l16t2+l20t2+",
   "talents": {
     "l1t1": {
       "talent_name": "Накопление жара",
