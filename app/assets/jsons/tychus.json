@@ -1,4 +1,5 @@
 {
+  "hero_id": "tychus",
   "hero_name": "Тайкус",
   "hero_image": "/assets/tychus/hero.jpg",
   "build" : "l1t2+l4t3+l7t1+l10t1+l13t1+l16t3+l20t1+",

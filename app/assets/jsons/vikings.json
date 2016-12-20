@@ -1,4 +1,5 @@
 {
+  "hero_id": "vikings",
   "hero_name": "Викинги",
   "hero_image": "/assets/vikings/hero.jpg",
   "build" : "l1t4+l4t4+l7t2+l10t2+l13t2+l16t1+l20t2+",

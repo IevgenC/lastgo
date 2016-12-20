@@ -1,4 +1,5 @@
 {
+  "hero_id": "thrall",
   "hero_name": "Тралл",
   "hero_image": "/assets/thrall/hero.jpg",
   "build" : "l1t2+l4t1+l7t3+l10t1+l13t3+l16t2+l20t4+",

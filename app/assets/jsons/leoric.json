@@ -1,4 +1,5 @@
 {
+  "hero_id": "leoric",
   "hero_name": "Леорик",
   "hero_image": "/assets/leoric/hero.jpg",
   "build" : "l1t2+l4t2+l7t3+l10t1+l13t2+l16t3+l20t3+",

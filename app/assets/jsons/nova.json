@@ -1,4 +1,5 @@
 {
+  "hero_id": "nova",
   "hero_name": "Нова",
   "hero_image": "/assets/nova/hero.jpg",
   "build" : "l1t4+l4t1+l7t1+l10t2+l13t1+l16t2+l20t3+",

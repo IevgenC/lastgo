@@ -1,4 +1,5 @@
 {
+  "hero_id": "butcher",
   "hero_name": "Мясник",
   "hero_image": "/assets/butcher/hero.jpg",
   "build" : "l1t4+l4t1+l7t3+l10t2+l13t3+l16t2+l20t4+",

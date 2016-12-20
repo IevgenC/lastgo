@@ -1,4 +1,5 @@
 {
+  "hero_id": "jaina",
   "hero_name": "Джайна",
   "hero_image": "/assets/jaina/hero.jpg",
   "build" : "l1t1+l4t1+l7t3+l10t2+l13t2+l16t2+l20t3+",

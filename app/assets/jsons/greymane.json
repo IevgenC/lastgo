@@ -1,4 +1,5 @@
 {
+  "hero_id": "greymane",
   "hero_name": "Седогрив",
   "hero_image": "/assets/greymane/hero.jpg",
   "build" : "l1t1+l4t2+l7t1+l10t1+l13t3+l16t1+l20t3+",

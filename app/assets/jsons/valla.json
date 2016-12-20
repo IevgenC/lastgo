@@ -1,4 +1,5 @@
 {
+  "hero_id": "valla",
   "hero_name": "Валла",
   "hero_image": "/assets/valla/hero.jpg",
   "build" : "l1t3+l4t2+l7t2+l10t2+l13t2+l16t1+l20t4+",

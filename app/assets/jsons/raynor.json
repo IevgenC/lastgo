@@ -1,4 +1,5 @@
 {
+  "hero_id": "raynor",
   "hero_name": "Рейнор",
   "hero_image": "/assets/raynor/hero.jpg",
   "build" : "l1t2+l4t1+l7t2+l10t1+l13t1+l16t1+l20t4+",

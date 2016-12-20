@@ -1,4 +1,5 @@
 {
+  "hero_id": "kerrigan",
   "hero_name": "Керриган",
   "hero_image": "/assets/kerrigan/hero.jpg",
   "build" : "l1t1+l4t1+l7t4+l10t1+l13t2+l16t2+l20t4+",

@@ -29,15 +29,17 @@
 var page_content;
 var page_url = window.location.href;
 
-var json = page_url.substr(page_url.lastIndexOf('/') + 1);
+//var json = page_url.substr(page_url.lastIndexOf('/') + 1);
+//
+//if (json.includes('#')) {
+//  json = json.split('#')[0];
+//} 
 
-if (json.includes('#')) {
-  json = json.split('#')[0];
-} 
+//$.get( "/assets/" + json + ".json", function(data){
+//   page_content = data;
+//});
 
-$.get( "/assets/" + json + ".json", function(data){
-    page_content = data;
-});
+page_content = $('.temp_information').data('temp')
 
 function getImage(id) {
 	document.getElementById(id).src = page_content['talents'][id]['talent_image'];

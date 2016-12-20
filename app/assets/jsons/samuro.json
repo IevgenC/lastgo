@@ -1,4 +1,5 @@
 {
+  "hero_id": "samuro",
   "hero_name": "Самуро",
   "hero_image": "/assets/samuro/hero.jpg",
   "build" : "l1t2+l4t1+l7t3+l10t2+l13t3+l16t2+l20t2+",

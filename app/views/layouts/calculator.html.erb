@@ -2,6 +2,8 @@
 <html>
 	<head><%= javascript_include_tag 'application' %></head>
 	<div class="calculator">
+		<%= content_tag :div, class: "temp_information", data: {temp: get_json_from_mongo} do %>
+		<% end %>
 		<div style="position:relative;">
 		<h1 class="hero"><%= hero_name %></h1>
 		<img class="hero" src="<%= hero_image %>"/>
