@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%= javascript_include_tag 'admin' %>
+</head>
+<body>
+<%= content_tag :div, class: "temp_information", data: {temp: get_json_from_mongo} do %>
+<% end %>
+<%= form_tag do %>
+  <%= text_area_tag 'hero_json', nil, size: "100x120"%>
+  <%= submit_tag "Update",  :style => "vertical-align: top" %>
+<% end %>
+</body>
+</html>
