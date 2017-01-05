@@ -1,0 +1,190 @@
+{
+  "hero_id": "zuljin",
+  "hero_name": "Зул'Джин",
+  "hero_image": "/assets/zuljin/zuljin.jpg",
+  "build": "",
+  "talents": {
+    "l1t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/1.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l1t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/2.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l1t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/3.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l1t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l4t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/4.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l4t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/5.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l4t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/6.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l4t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l7t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/7.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l7t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/8.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l7t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/9.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l7t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l10t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/10.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l10t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/11.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l13t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/12.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l13t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/13.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l13t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/14.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l13t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l16t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/15.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l16t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/16.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l16t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/17.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l16t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l20t1": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/18.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l20t2": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/19.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l20t3": {
+      "talent_name": "",
+      "talent_image": "/assets/zuljin/20.png",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    },
+    "l20t4": {
+      "talent_name": "",
+      "talent_image": "",
+      "talent_desc": "",
+      "comment_name": "",
+      "comment_desc": ""
+    }
+  }
+}
