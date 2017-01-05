@@ -1,4 +1,5 @@
 {
+  "hero_id": "zarya",
   "hero_name": "Заря",
   "hero_image": "/assets/zarya/hero.jpg",
   "build" : "l1t4+l4t3+l7t1+l10t2+l13t3+l16t4+l20t3+",

@@ -1,4 +1,5 @@
 {
+  "hero_id": "uther",
   "hero_name": "Утер",
   "hero_image": "/assets/uther/hero.jpg",
   "build" : "l1t1+l4t3+l7t3+l10t1+l13t4+l16t4+l20t3+",

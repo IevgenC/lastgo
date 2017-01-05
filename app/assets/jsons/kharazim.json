@@ -1,4 +1,5 @@
 {
+  "hero_id": "kharazim",
   "hero_name": "Каразим",
   "hero_image": "/assets/kharazim/hero.jpg",
   "build" : "l1t1+l4t1+l7t1+l10t1+l13t1+l16t4+l20t1+",

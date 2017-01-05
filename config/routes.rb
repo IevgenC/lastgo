@@ -8,6 +8,12 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about', as: 'about'
 
+  get 'admin78956789', to: 'pages#admin', as: 'admin'
+
+  get 'admin78956789/:hero', to: 'admin#hero', as: 'admin_hero'
+
+  post 'admin78956789/:hero', to: 'admin#update', as: 'update'
+
   get 'pages/home'
 
   get 'pages/contacts'

@@ -1,4 +1,5 @@
 {
+  "hero_id": "tracer",
   "hero_name": "Трейсер",
   "hero_image": "/assets/tracer/hero.jpg",
   "build" : "l1t3+l4t1+l7t1+l10t2+l13t1+l16t3+l20t2+",

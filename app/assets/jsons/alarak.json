@@ -1,4 +1,5 @@
 {
+  "hero_id": "alarak",
   "hero_name": "Аларак",
   "hero_image": "/assets/alarak/hero.jpg",
   "build" : "l1t2+l4t1+l7t1+l10t2+l13t2+l16t1+l20t2+",

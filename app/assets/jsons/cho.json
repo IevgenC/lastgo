@@ -1,4 +1,5 @@
-{
+{ 
+  "hero_id": "cho",
   "hero_name": "Чо",
   "hero_image": "/assets/cho/hero.jpg",
   "build" : "l1t2+l4t2+l7t2+l10t2+l13t3+l16t1+l20t1+",

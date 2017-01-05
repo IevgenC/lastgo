@@ -1,4 +1,5 @@
 {
+  "hero_id": "rexxar",
   "hero_name": "Рексар",
   "hero_image": "/assets/rexxar/hero.jpg",
   "build" : "l1t2+l4t1+l7t2+l10t1+l13t1+l16t4+l20t4+",

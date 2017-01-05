@@ -1,4 +1,5 @@
 {
+  "hero_id": "tyrael",
   "hero_name": "Тираэль",
   "hero_image": "/assets/tyrael/hero.jpg",
   "build" : "l1t1+l4t2+l7t2+l10t2+l13t3+l16t2+l20t3+",

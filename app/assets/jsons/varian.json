@@ -1,4 +1,5 @@
 {
+  "hero_id": "varian",
   "hero_name": "Вариан",
   "hero_image": "/assets/varian/hero.jpg",
   "build" : "l1t3+l4t2+l7t2+l10t2+l13t3+l16t1+l20t5+",

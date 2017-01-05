@@ -29,26 +29,30 @@
 var page_content;
 var page_url = window.location.href;
 
-var json = page_url.substr(page_url.lastIndexOf('/') + 1);
+//var json = page_url.substr(page_url.lastIndexOf('/') + 1);
+//
+//if (json.includes('#')) {
+//  json = json.split('#')[0];
+//} 
 
-if (json.includes('#')) {
-  json = json.split('#')[0];
-} 
+//$.get( "/assets/" + json + ".json", function(data){
+//   page_content = data;
+//});
 
-$.get( "/assets/" + json + ".json", function(data){
-    page_content = data;
-});
+page_content = $('.temp_information').data('temp')
 
 function getImage(id) {
 	document.getElementById(id).src = page_content['talents'][id]['talent_image'];
 }
 
 function showText(name_id, text_id, element_id){
+  var page_content = $('.temp_information').data('temp');
 	document.getElementById(name_id).innerHTML = page_content['talents'][element_id]['talent_name'];
 	document.getElementById(text_id).innerHTML = page_content['talents'][element_id]['talent_desc'];
 }
 
 function showComment(title_name, desc_name, element_id){
+  var page_content = $('.temp_information').data('temp');
   document.getElementById(title_name).innerHTML = page_content['talents'][element_id]['comment_name'];
   document.getElementById(desc_name).innerHTML = page_content['talents'][element_id]['comment_desc']; 
 }
@@ -77,6 +81,7 @@ function jumpto(anchor){
 
 
 function showBuild() {
+  var page_content = $('.temp_information').data('temp');
   var build = page_content['build']
   var talents = build.split('+').slice(0,-1);
   var allselected = document.getElementsByClassName("selected")
@@ -107,6 +112,7 @@ window.onload = function() {
   if (window.location.href.includes('#')) {
   	var url = window.location.href;
   	var params = url.split('#')[1].split('+');
+    params.splice(-1,1);
   	for (let param of params) {
    	  document.getElementById(param).className += ' ' + 'selected';
       var level = param.split('t')[0];

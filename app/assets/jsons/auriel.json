@@ -1,4 +1,5 @@
 {
+  "hero_id": "auriel",
   "hero_name": "Ауриэль",
   "hero_image": "/assets/auriel/hero.jpg",
   "build" : "l1t1+l4t1+l7t1+l10t2+l13t1+l16t2+l20t4+",

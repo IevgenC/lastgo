@@ -1,4 +1,5 @@
 {
+  "hero_id": "sylvanas",
   "hero_name": "Сильвана",
   "hero_image": "/assets/sylvanas/hero.jpg",
   "build" : "l1t2+l4t3+l7t1+l10t1+l13t2+l16t2+l20t4+",

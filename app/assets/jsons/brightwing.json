@@ -1,4 +1,5 @@
-{
+{ 
+  "hero_id": "brightwing",
   "hero_name": "Светик",
   "hero_image": "/assets/brightwing/hero.jpg",
   "build" : "l1t3+l4t4+l7t2+l10t1+l13t3+l16t2+l20t1+",

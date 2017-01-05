@@ -1,4 +1,5 @@
 {
+  "hero_id": "illidan",
   "hero_name": "Иллидан",
   "hero_image": "/assets/illidan/hero.jpg",
   "build" : "l1t1+l4t2+l7t1+l10t1+l13t3+l16t1+l20t1+",

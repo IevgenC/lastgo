@@ -1,4 +1,5 @@
 {
+  "hero_id": "arthas",
   "hero_name": "Артас",
   "hero_image": "/assetsarthas/hero.jpg",
   "build" : "l1t2+l4t3+l7t3+l10t1+l13t3+l16t1+l20t1+",

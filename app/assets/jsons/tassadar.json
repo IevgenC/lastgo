@@ -1,4 +1,5 @@
 {
+  "hero_id": "tassadar",
   "hero_name": "Тассадар",
   "hero_image": "/assets/tassadar/hero.jpg",
   "build" : "l1t1+l4t1+l7t1+l10t2+l13t2+l16t2+l20t4+",

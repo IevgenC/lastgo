@@ -1,4 +1,5 @@
 {
+  "hero_id": "stitches",
   "hero_name": "Стежок",
   "hero_image": "/assets/stitches/hero.jpg",
   "build" : "l1t2+l4t3+l7t4+l10t1+l13t3+l16t2+l20t4+",

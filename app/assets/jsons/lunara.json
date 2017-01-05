@@ -1,4 +1,5 @@
 {
+  "hero_id": "lunara",
   "hero_name": "Лунара",
   "hero_image": "/assets/lunara/hero.jpg",
   "build" : "l1t3+l4t1+l7t4+l10t1+l13t2+l16t2+l20t3+",

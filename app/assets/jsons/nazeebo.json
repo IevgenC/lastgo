@@ -1,4 +1,5 @@
 {
+  "hero_id": "nazeebo",
   "hero_name": "Назибо",
   "hero_image": "/assets/nazeebo/hero.jpg",
   "build" : "l1t2+l4t2+l7t3+l10t1+l13t2+l16t2+l20t4+",

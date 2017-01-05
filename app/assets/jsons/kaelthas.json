@@ -1,4 +1,5 @@
 {
+  "hero_id": "kaelthas",
   "hero_name": "Кель'тас",
   "hero_image": "/assets/kaelthas/hero.jpg",
   "build" : "l1t1+l4t1+l7t1+l10t1+l13t1+l16t1+l20t4+",
