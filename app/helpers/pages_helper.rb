@@ -1,4 +1,5 @@
 require 'json'
+require 'securerandom'
 
 module PagesHelper
 	
@@ -16,8 +17,8 @@ module PagesHelper
 	def get_json_from_mongo
 		hero_name = get_hero_name
 		if @mongo_client == nil
-			#uri = "mongodb://127.0.0.1:27017/test"
-			uri = "mongodb://cherya:cherya123@ds141128.mlab.com:41128/heroku_82ppsrn9"
+			uri = "mongodb://127.0.0.1:27017/test"
+			#uri = "mongodb://cherya:cherya123@ds141128.mlab.com:41128/heroku_82ppsrn9"
 			@mongo_client = Mongo::Client.new(uri)
 		end
 		collection = @mongo_client[:heroes]
@@ -50,4 +51,28 @@ module PagesHelper
 			content_tag(:span, name)
       	end
 	end
+
+	def generate_random_id
+	 	SecureRandom.hex
+	end
+
+	def generate_article(article)
+			content_tag(:div, '', class: 'article') do 
+			image_tag(article[:main_image], class: 'article_img') +
+			content_tag(:div, '', class: 'article_desc') do 
+				content_tag(:a, article[:summary], class: 'article_summary', href: "articles/#{article[:id]}") +
+				content_tag(:div, article[:content].html_safe, class: 'article_content')
+			end
+     	end
+ 	end
+
+ 	def display_article(article)
+ 		content_tag(:div, '', class: 'article_all') do 
+			image_tag(article[:main_image], class: 'article_img_all') +
+			content_tag(:div, '', class: 'article_desc') do 
+				content_tag(:span, article[:summary], class: 'article_summary') +
+				content_tag(:div, article[:content].html_safe, class: 'article_content_all')
+			end
+     	end
+ 	end
 end
