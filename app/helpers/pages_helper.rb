@@ -17,8 +17,8 @@ module PagesHelper
 	def get_json_from_mongo
 		hero_name = get_hero_name
 		if @mongo_client == nil
-			uri = "mongodb://127.0.0.1:27017/test"
-			#uri = "mongodb://cherya:cherya123@ds141128.mlab.com:41128/heroku_82ppsrn9"
+			#uri = "mongodb://127.0.0.1:27017/test"
+			uri = "mongodb://cherya:cherya123@ds141128.mlab.com:41128/heroku_82ppsrn9"
 			@mongo_client = Mongo::Client.new(uri)
 		end
 		collection = @mongo_client[:heroes]
