@@ -60,10 +60,10 @@ div[class="article_content"]{
     max-width: 900px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: normal;
+    white-space: pre;
 }
 div[class="article_content_all"]{
-    white-space: normal;
+    white-space: pre;
 }
 a[class="hero"]{
     color: darkslategray;
