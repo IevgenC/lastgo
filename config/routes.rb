@@ -4,15 +4,29 @@ Rails.application.routes.draw do
 
   get 'calculator', to: 'pages#calculator', as: 'calculator'
 
+  get 'articles', to: 'pages#articles', as: 'articles'
+
   get 'calculator/:hero', to: 'calculator#hero', as: 'hero'
 
   get 'about', to: 'pages#about', as: 'about'
 
+  get 'articles/:article', to: 'articles#article', as: 'article'
+
   get 'admin78956789', to: 'pages#admin', as: 'admin'
 
-  get 'admin78956789/:hero', to: 'admin#hero', as: 'admin_hero'
+  get 'admin78956789/news', to: 'pages#news_admin', as: 'news_admin'
 
-  post 'admin78956789/:hero', to: 'admin#update', as: 'update'
+  get 'admin78956789/news/create', to: 'news_admin#create_news', as: 'news_create'
+
+  post 'admin78956789/news/create', to: 'news_admin#create', as: 'create_news'
+
+  get 'admin78956789/news/update', to: 'news_admin#update_news', as: 'news_update'
+
+  post 'admin78956789/news/update', to: 'news_admin#update', as: 'update_news'
+
+  get 'admin78956789/:hero', to: 'heroes_admin#hero', as: 'admin_hero'
+
+  post 'admin78956789/:hero', to: 'heroes_admin#update', as: 'update'
 
   get 'pages/home'
 
