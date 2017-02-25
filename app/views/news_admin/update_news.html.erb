@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<%= content_tag :div do %>
+<% end %>
+<%= form_tag do %>
+  <%= text_area_tag 'main_image', nil, size: "5x50"%>
+  <%= text_area_tag 'content', nil, size: "10x30"%>
+  <%= submit_tag "Create" %>
+<% end %>
+</body>
+</html>

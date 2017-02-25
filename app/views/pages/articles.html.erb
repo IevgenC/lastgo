@@ -1,0 +1,13 @@
+<html>
+<body>
+<div class="jumbotron feature">
+	<div class="container">
+		<h1>Статьи</h1>
+		<% @articles.each do |article| %>
+   			<%= generate_article(article) %>
+		<%end %>
+	</div>
+</div>
+</body>
+</html>
+

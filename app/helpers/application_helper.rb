@@ -8,6 +8,10 @@ module ApplicationHelper
         params[:controller] == 'calculator' || current_page?(link_path) ? "active" : ""
     end
 
+    def is_articles_active?(link_path)
+        params[:controller] == 'articles' || current_page?(link_path) ? "active" : ""
+    end
+
 	def extends(layout, &block)
     # Make sure it's a string
     layout = layout.to_s

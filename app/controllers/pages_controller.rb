@@ -11,4 +11,12 @@ class PagesController < ApplicationController
   def calculator
   end
 
+  def articles
+	collection = mongo_client[:news]
+	@articles = collection.find
+	@articles.each do |article|
+	puts "ARTICLES: #{article[:main_image]}"
+	end
+  end
+
 end

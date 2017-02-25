@@ -1,4 +1,5 @@
 require 'json'
+require 'securerandom'
 
 module PagesHelper
 	
@@ -50,4 +51,28 @@ module PagesHelper
 			content_tag(:span, name)
       	end
 	end
+
+	def generate_random_id
+	 	SecureRandom.hex
+	end
+
+	def generate_article(article)
+			content_tag(:div, '', class: 'article') do 
+			image_tag(article[:main_image], class: 'article_img') +
+			content_tag(:div, '', class: 'article_desc') do 
+				content_tag(:a, article[:summary], class: 'article_summary', href: "articles/#{article[:id]}") +
+				content_tag(:div, article[:content].html_safe, class: 'article_content')
+			end
+     	end
+ 	end
+
+ 	def display_article(article)
+ 		content_tag(:div, '', class: 'article_all') do 
+			image_tag(article[:main_image], class: 'article_img_all') +
+			content_tag(:div, '', class: 'article_desc') do 
+				content_tag(:span, article[:summary], class: 'article_summary') +
+				content_tag(:div, article[:content].html_safe, class: 'article_content_all')
+			end
+     	end
+ 	end
 end
