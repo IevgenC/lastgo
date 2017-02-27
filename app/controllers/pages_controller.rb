@@ -13,10 +13,7 @@ class PagesController < ApplicationController
 
   def articles
 	collection = mongo_client[:news]
-	@articles = collection.find
-	@articles.each do |article|
-	puts "ARTICLES: #{article[:main_image]}"
-	end
+	@articles = collection.find.to_a.reverse
   end
 
 end
