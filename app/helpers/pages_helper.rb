@@ -58,12 +58,20 @@ module PagesHelper
 
 	def generate_article(article)
 			content_tag(:div, '', class: 'article') do 
-			image_tag(article[:main_image], class: 'article_img') +
+			article_image(article) +  
 			content_tag(:div, '', class: 'article_desc') do 
 				content_tag(:a, article[:summary], class: 'article_summary', href: "articles/#{article[:id]}") +
 				content_tag(:div, article[:content].html_safe, class: 'article_content')
 			end
      	end
+ 	end
+
+ 	def article_image(article)
+ 		if article[:main_image] != '' 
+ 			return image_tag(article[:main_image], class: 'article_img') 
+ 		else
+ 			return content_tag(:div)
+ 		end
  	end
 
  	def display_article(article)
