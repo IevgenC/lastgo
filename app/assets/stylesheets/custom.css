@@ -49,8 +49,13 @@ img[class="article_img_all"]{
     filter: grayscale(50%);
     border-radius: 5px;
     max-height: 300px;
-}    
+} 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}   
 div[class="article_desc"]{
+    max-width: 1100px;
 }
 .article_summary {
    font-size: 30px;
