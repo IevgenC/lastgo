@@ -13,7 +13,7 @@ class PagesController < ApplicationController
 
   def articles
 	collection = mongo_client[:news]
-	@articles = collection.find.to_a.reverse
+	@articles = collection.find
   end
 
 end
